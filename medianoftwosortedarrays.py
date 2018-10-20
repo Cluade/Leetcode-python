@@ -6,8 +6,8 @@ class Solution:
         :rtype: float
         """
         
-        max_int = 0x00000000
-        min_int = 0xffffffff
+        max_int = 0xffffffff
+        min_int = 0x00000000
         n1 = len(nums1)
         n2 = len(nums2)
         N = n1+n2
