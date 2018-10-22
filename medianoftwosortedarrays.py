@@ -7,7 +7,7 @@ class Solution:
         """
         
         max_int = 0xffffffff
-        min_int = 0x00000000
+        min_int = -0xffffffff
         n1 = len(nums1)
         n2 = len(nums2)
         N = n1+n2
@@ -41,4 +41,4 @@ class Solution:
                 
 
 test= Solution()
-print(test.findMedianSortedArrays([1, 3],[2]))
+print(test.findMedianSortedArrays([1,2],[3,4]))
