@@ -6,4 +6,6 @@ Day 1, simple code on bit operation
 utf-8 should be checked twice 
 minimum world abbreviation
 
+median sort very important
+
 
